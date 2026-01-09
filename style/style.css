@@ -22,6 +22,10 @@ body {
   background-color: #e40505b6;
 }
 
+.p-style {
+  color: #627382;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -41,13 +45,12 @@ nav ul a {
 }
 
 #banner {
-    padding-top: 160px;
+  padding: 160px 0;
   background-image: url(../assets/hero-bg.png);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  height: 100vh;
-  /* height: 600px; */
+  max-height: fit-content;
   text-align: center;
   align-items: center;
 }
@@ -61,21 +64,21 @@ nav ul a {
   margin: 0px auto;
 }
 
-#banner h1{
-    font-size: 72px;
-    color: #30B868;
-    font-weight: 700;
-    margin: 20px 0;
+#banner h1 {
+  font-size: 72px;
+  color: #30b868;
+  font-weight: 700;
+  margin: 20px 0;
 }
 
-#banner h1 span{
-    color: #fff;
+#banner h1 span {
+  color: #fff;
 }
 
-#banner p{
-    margin: 20px auto;
-    color: #fff;
-    max-width: 620px;
+#banner p {
+  margin: 20px auto;
+  color: #fff;
+  max-width: 620px;
 }
 
 #banner .btn1 {
@@ -87,8 +90,94 @@ nav ul a {
   font-weight: 600px;
 }
 
-#banner .btn1:hover{
-    background-color: #e40505b6;
+#banner .btn1:hover {
+  background-color: #e40505b6;
 }
 
+#note {
+  margin: 60px 120px 0 120px;
+  text-align: center;
+}
 
+#note h1 {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+#note p {
+  color: #627382;
+}
+
+.card img {
+  background-color: #f95555;
+  border-radius: 50%;
+  width: 32px;
+  padding: 10px;
+}
+
+.note-container {
+  display: flex;
+  justify-content: center;
+  margin: 50px 120px 0 120px;
+  gap: 24px;
+}
+.note-container .card {
+  padding: 50px 24px;
+  border-radius: 8px 8px 0 0;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.06);
+}
+
+#brain {
+  margin: 80px 120px;
+  /* border: 1px solid red; */
+  /* padding-top: 100px; */
+  display: flex;
+  gap: 50px;
+}
+
+.brain-container {
+  padding-top: 100px;
+}
+
+.brain-container .brain-text {
+  color: #469165;
+  font-weight: 500px;
+}
+.brain-container h2 {
+  font-size: 48px;
+  font-weight: 700;
+  margin: 0px;
+}
+.brain-container ul {
+  list-style: none;
+}
+.brain-container li {
+  display: flex;
+  gap: 4px;
+  padding-bottom: 10px;
+  margin-left: 0;
+  padding-left: 0;
+}
+.brain-container p {
+  display: flex;
+  gap: 4px;
+}
+
+#early-access {
+  margin: 120px;
+  padding: 80px 0;
+  border-radius: 12px;
+  background: #f7f6f2;
+  text-align: center;
+}
+
+#early-access h2 {
+  font-size: 48px;
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
+}
+
+#early-access button {
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.15);
+}
