@@ -184,7 +184,8 @@ nav ul a {
 
 footer{
     background-color: #001931;
-    padding: 120px 0;
+    /* padding: 120px 0; */
+    padding-top: 120px;
 
 }
 
@@ -192,6 +193,7 @@ footer{
     
     display: flex;
     justify-content: space-between;
+    align-items: center;
      margin: 0 120px;
      padding-bottom: 80px;
      border-bottom: 1px solid rgba(229, 231, 235, 0.2);
@@ -208,4 +210,10 @@ footer{
     background-color: white;
     border-radius: 50%;
     margin-right: 10px;
+}
+
+.copyRight{
+    text-align: center;
+    color: #FAFAFA;
+    padding: 30px 0;
 }
